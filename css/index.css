@@ -209,6 +209,7 @@
 .portfolio{
     align-items: flex-start;
     text-align: start;
+    margin-bottom: 50px;
 }
 .portfolio h2{
     margin-bottom: 60px;
@@ -248,39 +249,25 @@ h2,h3,h4,h5,h6{
     font-weight: lighter;
     margin-top: -30px;
 }
-.projects a{
-    color: rgb(230, 11, 11);
-    text-align: center;
-    justify-content: center;
-    width: 70%;
-    padding: 50px;
 
-    height: 60px;
-    clip-path: circle(30%);
-    opacity: 0.2;
-
-}
-.projects a:hover{
+.projects:hover{
     cursor: pointer;
-    background-color:#e4ddf4;
-    opacity: 1;
-    border: 20px #5bccf6 solid;
-
-
 }
 .projects{
     
-    display: grid;
     padding: 20px;
     align-items: center;
     width: 100%;
     z-index: 3;
     justify-content: center;
     text-align:center;
+    display: flexbox;
+    text-align: center;
+    height: 100%;
 
 
 }
-.projects, .card{
+.projects .card{
 
     width: 100%;
     padding: 10px;
@@ -296,6 +283,16 @@ h2,h3,h4,h5,h6{
     height: 250px;
 
 }
+#chemist{
+    border-top:solid 4px #5bccf6;
+    border-right:solid 1px #5bccf6;
+    border-left:solid 1px #5bccf6;
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px;
+    color: grey;
+    text-align: center;
+    justify-content: space-around;
+}
 
 
 #project2{
@@ -306,29 +303,72 @@ h2,h3,h4,h5,h6{
     height: 250px;
 
 }
+#church{
+    border-top:solid 4px #5bccf6;
+    border-right:solid 1px #5bccf6;
+    border-left:solid 1px #5bccf6;
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px;
+    color: grey;
+    text-align: center;
+    justify-content: space-around;
+}
+#project2 p{
+    color: transparent;
+}
 
 #project3{
-    background-image: url('../images/project3.png');
+    background-image: url('../images/calc.png');
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
     height: 250px;
 
 }
+#flutter{
+    border-top:solid 4px #5bccf6;
+    border-right:solid 1px #5bccf6;
+    border-left:solid 1px #5bccf6;
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px;
+    color: grey;
+    text-align: center;
+    justify-content: space-around;
+}
+#project3 a{
+    color: #5bccf6;
+    text-emphasis: none;
+    text-decoration: none;
+    
+}
 
+.projects a{
+    width: 100%;
+    height: 100%;
+}
 #project4{
-    background-image: url('../images/project4.jpg');
+    background-image: url('../images/yolomi.png');
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
     height: 250px;
 
+}
+#yolomi{
+    border-top:solid 4px #5bccf6;
+    border-right:solid 1px #5bccf6;
+    border-left:solid 1px #5bccf6;
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px;
+    color: grey;
+    text-align: center;
+    justify-content: space-around;
 }
 
 #project5{
     overflow: hidden;
 
-    background-image: url('../images/project5.jpeg');
+    background-image: url('../images/delani.png');
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
@@ -337,15 +377,35 @@ h2,h3,h4,h5,h6{
 }
 #project5 p{
     margin-top: -170px;
+    color: transparent;
 }
-
+#delani{
+    border-top:solid 4px #5bccf6;
+    border-right:solid 1px #5bccf6;
+    border-left:solid 1px #5bccf6;
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px;
+    color: grey;
+    text-align: center;
+    justify-content: space-around;
+}
 #project6{
-    background-image: url('../images/project6.png');
+    background-image: url('../images/pizza.png');
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
     height: 250px;
 
+}
+#pizza{
+    border-top:solid 4px #5bccf6;
+    border-right:solid 1px #5bccf6;
+    border-left:solid 1px #5bccf6;
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px;
+    color: grey;
+    text-align: center;
+    justify-content: space-around;
 }
 
 #projectL{
