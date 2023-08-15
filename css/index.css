@@ -2,12 +2,13 @@
     background-color:#e4ddf4  ;
     margin: 0;
     overflow-wrap: break-word;
-    overflow-x: hidden;
     min-height: 75rem;
     overflow-y: scroll;
 
     min-height: 75rem;
     padding-top: 4.5rem;
+    width: 100%;
+    overflow-x: hidden;
     
 }
 
@@ -519,4 +520,5 @@ div a{
     margin-bottom: 20px;
 
 }
+
 
