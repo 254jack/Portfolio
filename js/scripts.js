@@ -3,6 +3,7 @@ $("documet").ready(function () {
   $('body').css('align-items','center')
 
   $("#contact-btn").click(function () {
+    alert("thank you")
   });
 
 
